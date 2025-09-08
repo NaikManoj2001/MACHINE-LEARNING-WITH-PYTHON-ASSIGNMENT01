@@ -1,0 +1,83 @@
+python:
+high level, interpreted language, object oriented programming language, indented language, dynamically called as python
+
+features of python:
+1) simple synatx/ easy to learn
+2) libraries
+3) open source
+4) platforn independent
+5) less memory
+6) faster execution compare to some programming lanuages
+
+applications:
+1) web devolopement
+2) mobile app devolopement
+3) machine learning/deep learning
+4) ai
+5) cyber security
+6) graphics
+7) iot
+8) automation
+9) deskop app devolopement ....and more
+
+comments :
+they are part of the code but they wont consider in execution time.
+
+we have two types:
+1) single line comment
+                       # my 1st program
+2) multi line comment
+                    '''  ''' or """   """
+
+keywords : 
+they are reserved words used for particular task and they cannot be used as identifiers (variables, fun name....etc)
+eg : True, False, for, if, else, while, break, try, except, finally.....etc
+
+variable :
+it is a place where we store our values
+ex : a = 5
+a is variable 5 is value
+
+valid variable declaration 
+a = 5
+A = 7
+num = 88
+num1 = 66
+empid = 123
+emp_name = "mahesh" or 'priya'
+_emp_no_ = 9876544321
+
+invalid variable declaration 
+* should not start with numbers  eg : 1n = 12
+* do not use special characters  eg : w n = 1
+* no space eg : stu id = 123
+
+data type :
+its pre-defined component and specify the data category
+
+strings = str = "mahesh"
+int = age = 14
+float = height = 5.2
+
+python data types
+int
+float
+complex
+str
+bool
+
+special data types (data structures)
+list
+tuple
+set
+dict
+
+input function : input()
+
+output function : print()
+
+print ("hlo good morning")
+hlo good morning
+
+a = int(input("enter a number"))
+enter a number 7
