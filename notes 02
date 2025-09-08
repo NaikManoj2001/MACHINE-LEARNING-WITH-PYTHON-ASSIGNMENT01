@@ -1,0 +1,67 @@
+a = 5
+b = 6
+print (a+b)
+
+11
+
+x = float(input("enter a value:"))
+y = float(input("enter a value:"))
+print(x+y)
+print(x,"+",y,"=",x+y)
+print("sum of:",x,"x",y,"=",x+y)
+OUTPUT
+enter a value: 6
+enter a value: 4
+10.0
+6.0 + 4.0 = 10.0
+sum of: 6.0 x 4.0 = 10.0
+
+# .format method
+print("sum of {} + {} = {} " .format(x,y,x+y))
+
+id = int(input("enter emp id : "))
+name = str(input("enter the emp name : "))
+phone = int(input("enter emp phone no : "))
+print("details of the employee")
+print(" emp id: ",id)
+print(" emp name: ",name)
+print(" emp phone no: ",phone)
+OUTPUT
+enter emp id :  122
+enter the emp name :  manoja
+enter emp phone no :  987543
+details of the employee
+ emp id:  122
+ emp name:  manoja
+ emp phone no:  987543
+
+write a programme to calculate area of traingle and circle with given input.
+b = float(input())
+h = float(input())
+r = float(input())
+aot = 0.5*b*h
+aoc = 3.142*r*r
+print(f"the area of traingle is {aot}\nthe area of the circle is {aoc}")
+OUTPUT
+ 2
+ 3
+ 4
+the area of traingle is 3.0
+the area of the circle is 50.0
+
+a = int(input())
+b = int(input())
+print(a+b,a-b,a*b,a/b,a%b,a//b,a**b)
+print(f"the sum of {a} and {b} is {a+b}\nthe sub of {a} and {b} is {a-b}\nthe div of {a} and {b} is {a}\nthe mod of {a} and {b} is {a%b}\nthe mul of {a} and {b} is {a*b}\nthe floor div of {a} and {b} is {a//b}\nthe {a} power of {b} is {a**b}")
+
+ 2
+ 3
+5 -1 6 0.6666666666666666 2 0 8
+the sum of 2 and 3 is 5
+the sub of 2 and 3 is -1
+the div of 2 and 3 is 2
+the mod of 2 and 3 is 2
+the mul of 2 and 3 is 6
+the floor div of 2 and 3 is 0
+the 2 power of 3 is 8
+
